@@ -1402,6 +1402,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D04725E019E49ED7006002AA;
@@ -1789,6 +1790,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Debug;
 		};
@@ -1801,6 +1803,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Release;
 		};
@@ -1914,6 +1917,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Profile;
 		};
@@ -1982,6 +1986,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Test;
 		};
